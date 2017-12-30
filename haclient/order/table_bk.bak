@@ -1,0 +1,45 @@
+
+        <div class="example-box-wrapper">
+            <div class="scroll-columns">
+                <table class="table table-bordered table-striped table-condensed cf">
+                    <thead class="cf">
+                    <tr>
+                         <th>#Mã</th>
+                            <th>Loại</th>
+                            <th>.Mock</th>
+                            <th>.SL</th>
+                            <th>Tên</th>
+                            <th>.Add</th>
+                            <th>.Sdt</th>
+                            <th>.Or</th>
+                            <th>EXP</th>
+                            <th>Ưu Tiên</th>
+                            <th>#Gửi</th>
+                            <th>E</th>
+                            <th>V</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <?php for($i=0;$i<20;$i++){ ?>
+                    <tr>
+                        <td>AAC</td>
+                        <td class="numeric"><b><span class="bs-badge badge-info">2D</span></b></td>
+                        <td><i class="glyph-icon icon-save"></i></td>
+                        <td>S:1/X:5/L:17/XL:2</td>
+                        <td>Đào Duy Khánh</td>
+                       <td class="numeric">129A Nguyễn Trãi - Thanh Xuân - Hà Nội</td>
+                        <td class="numeric">0868091604</td>
+                        <td>1-1-2018</td>
+                        <td>20-1-2018</td>
+                        <td> <span class="bs-badge badge-danger">S</span></td>
+                         <td class="numeric"><i class="glyph-icon icon-spin-5"></i></td>
+                        <td><a href="#edit" data-id="121-9" data-toggle="modal" data-target="#edit-modal-data" class="opacity-dialog-80" id="data-modal-edit"><i class="glyph-icon icon-legal"></i></a></td>
+                        <td><a href="#thongtin" data-id="121-9" data-toggle="modal" data-target="#view-modal" class="opacity-dialog-60" id="data-modal-ok"><i class="glyph-icon icon-eye"></i></a></td>
+                    </tr>
+                        <?php } ?>
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
